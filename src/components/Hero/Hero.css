@@ -1,0 +1,24 @@
+#hero{
+    margin-top: 32px;
+}
+
+#hero .container{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.right{
+    max-width: 350px;
+    width: 100%;
+}
+
+
+@media(max-width:876px){
+    #hero .left{
+        display: none;
+    }
+}
+
+
