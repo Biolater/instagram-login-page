@@ -1,24 +1,67 @@
-#hero{
+#hero {
     margin-top: 32px;
 }
 
-#hero .container{
+#hero .container {
     display: flex;
     justify-content: center;
 }
 
 
 
-.right{
+.right {
     max-width: 350px;
     width: 100%;
 }
 
+.sign-up {
+    padding: 10px 0px;
+    text-align: center;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 10px;
+}
 
-@media(max-width:876px){
-    #hero .left{
-        display: none;
-    }
+.sign-up p {
+    color: black;
+    font-size: 14px;
+    margin: 11px;
+    font-weight: 400;
+}
+
+.sign-up p span {
+    color: rgb(0, 149, 246);
+    font-weight: 600;
+    cursor: pointer;
 }
 
 
+.get-app p{
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 14px;
+    margin: 0;
+}
+
+
+.get-app .logos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
+    gap: 8px;
+}
+
+
+.get-app .logos *{
+    height: 40px;
+    cursor: pointer;
+}
+
+
+
+
+@media(max-width:876px) {
+    #hero .left {
+        display: none;
+    }
+}

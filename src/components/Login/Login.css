@@ -44,13 +44,13 @@ form input::placeholder {
 
 
 
-.login-button{
+.login-button {
     max-width: 258px;
     width: 100%;
     margin: 8px 0px;
 }
 
-.login-button button{
+.login-button button {
     width: 100%;
     padding: 7px 16px;
     border: none;
@@ -62,10 +62,10 @@ form input::placeholder {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 600;
     line-height: 18px;
-    opacity: 0.7; 
+    opacity: 0.7;
 }
 
-.line{
+.line {
     margin: 18px 40px 18px;
     width: 258px;
     background-color: #dbdbdb;
@@ -73,7 +73,7 @@ form input::placeholder {
     position: relative;
 }
 
-.line::after{
+.line::after {
     content: "OR";
     position: absolute;
     color: rgb(115, 115, 115);
@@ -96,12 +96,12 @@ form input::placeholder {
     color: #385185;
 }
 
-.facebook a p{
+.facebook a p {
     font-size: 14px;
     font-weight: 600;
 }
 
-.forgot-password p{
+.forgot-password p {
     margin: 5px 0px;
     font-size: 12px;
     color: #385185;
@@ -109,11 +109,12 @@ form input::placeholder {
 }
 
 
-@media(max-width:451px){
-    .login-container{
+@media(max-width:451px) {
+    .login-container {
         border: none;
     }
-    .instagram-logo{
+
+    .instagram-logo {
         margin: 0;
     }
 }

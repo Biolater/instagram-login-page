@@ -1,0 +1,39 @@
+footer{
+    height: 135px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px 16px;
+}
+
+footer p{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: rgb(115, 115, 115);
+    cursor: pointer;
+}
+
+footer p:hover{
+    text-decoration: underline;
+}
+
+footer .container{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+footer .copyright{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    justify-content: center;
+    
+}
